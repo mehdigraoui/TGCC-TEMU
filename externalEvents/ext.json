@@ -253,17 +253,6 @@
       "actions": [
         {
           "type": {
-            "value": "ModVolumeMusicCanal"
-          },
-          "parameters": [
-            "",
-            "1",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
             "value": "ResetTimer"
           },
           "parameters": [
@@ -279,6 +268,16 @@
             "music_controler",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModGlobalVolume"
+          },
+          "parameters": [
+            "",
+            "=",
+            "0"
           ]
         }
       ]
@@ -337,17 +336,6 @@
       "actions": [
         {
           "type": {
-            "value": "ModVolumeMusicCanal"
-          },
-          "parameters": [
-            "",
-            "1",
-            "=",
-            "100"
-          ]
-        },
-        {
-          "type": {
             "value": "ResetTimer"
           },
           "parameters": [
@@ -363,6 +351,16 @@
             "music_controler",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModGlobalVolume"
+          },
+          "parameters": [
+            "",
+            "=",
+            "100"
           ]
         }
       ]
@@ -387,7 +385,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "back",
+            "home",
             "",
             "",
             ""
@@ -398,7 +396,7 @@
             "value": "Visible"
           },
           "parameters": [
-            "back"
+            "home"
           ]
         },
         {
@@ -443,9 +441,466 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "ANIMATIONS UI"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "fullscreen",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "fullscreen",
+            "Tween",
+            "\"ui\"",
+            "1.2",
+            "\"bounce\"",
+            "0.5",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "fullscreen",
+            "Opacity",
+            "=",
+            "255"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "btn_next",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "btn_next",
+            "Tween",
+            "\"ui\"",
+            "1.2",
+            "\"bounce\"",
+            "0.5",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "btn_previous",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "btn_previous",
+            "Tween",
+            "\"ui\"",
+            "1.2",
+            "\"bounce\"",
+            "0.5",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "home",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "home",
+            "Tween",
+            "\"ui\"",
+            "1.2",
+            "\"bounce\"",
+            "0.5",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "music_controler",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "music_controler",
+            "Tween",
+            "\"ui\"",
+            "1.2",
+            "\"bounce\"",
+            "0.5",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "music_controler",
+            "Opacity",
+            "=",
+            "255"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "fullscreen",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "fullscreen",
+            "Tween",
+            "\"ui\"",
+            "1",
+            "\"bounce\"",
+            "0.5",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "fullscreen",
+            "Opacity",
+            "=",
+            "100"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "home",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "home",
+            "Tween",
+            "\"ui\"",
+            "1",
+            "\"bounce\"",
+            "0.5",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "fullscreen",
+            "Opacity",
+            "=",
+            "100"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "music_controler",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "music_controler",
+            "Tween",
+            "\"ui\"",
+            "1",
+            "\"bounce\"",
+            "0.5",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "music_controler",
+            "Opacity",
+            "=",
+            "100"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "btn_next",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "btn_next",
+            "Tween",
+            "\"ui\"",
+            "1",
+            "\"bounce\"",
+            "0.5",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "btn_previous",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "btn_previous",
+            "Tween",
+            "\"ui\"",
+            "1",
+            "\"bounce\"",
+            "0.5",
+            "",
+            "yes"
+          ]
+        }
+      ]
     }
   ]
 }

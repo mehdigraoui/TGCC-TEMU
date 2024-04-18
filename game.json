@@ -23,7 +23,7 @@
     "name": "Temu",
     "description": "",
     "author": "Mehdi",
-    "windowWidth": 1920,
+    "windowWidth": 1918,
     "windowHeight": 1080,
     "latestCompilationDirectory": "C:\\Users\\ACER\\Desktop\\Work\\Presentation KAMAL\\export",
     "maxFPS": 60,
@@ -7248,7 +7248,7 @@
         "alwaysLoaded": false,
         "file": "home.jpg",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"home.jpg\",\"extension\":\".png\"}",
         "name": "home.jpg",
         "smoothed": true,
         "userAdded": true
@@ -7279,6 +7279,78 @@
         "name": "box.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fullscreen_pff.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fullscreen_pff.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "volumeu_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "volumeu_off.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "5.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "5.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "7.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "7.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "right (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "right (3).png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7292,10 +7364,15 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -7324,7 +7401,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -7333,7 +7410,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "fullscreen2.png",
+                  "image": "fullscreen_pff.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7357,12 +7434,17 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "back",
+      "name": "home",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "back",
@@ -7574,7 +7656,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.03,
+              "timeBetweenFrames": 0.01,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -9474,7 +9556,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.03,
+              "timeBetweenFrames": 0.01,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -11139,10 +11221,15 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -11171,7 +11258,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -11180,7 +11267,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "mute2.png",
+                  "image": "volumeu_off.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11200,6 +11287,136 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "btn_next",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 55,
+                        "y": 0
+                      },
+                      {
+                        "x": 55,
+                        "y": 54
+                      },
+                      {
+                        "x": 0,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "btn_previous",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "right (3).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 55,
+                        "y": 0
+                      },
+                      {
+                        "x": 55,
+                        "y": 54
+                      },
+                      {
+                        "x": 0,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -11212,7 +11429,7 @@
         "objectName": "music_controler"
       },
       {
-        "objectName": "back"
+        "objectName": "home"
       },
       {
         "objectName": "bg"
@@ -11225,6 +11442,12 @@
       },
       {
         "objectName": "transition"
+      },
+      {
+        "objectName": "btn_next"
+      },
+      {
+        "objectName": "btn_previous"
       }
     ]
   },
@@ -11258,7 +11481,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/page-1-1"
+      "referenceTo": "/layouts/template_subsection"
     }
   ],
   "externalEvents": [
@@ -11268,6 +11491,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
@@ -11304,11 +11531,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/ui_section"
+      "referenceTo": "/externalLayouts/ui_sub_section"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/ui_subsection"
+      "referenceTo": "/externalLayouts/ui_section"
     }
   ],
   "externalSourceFiles": []

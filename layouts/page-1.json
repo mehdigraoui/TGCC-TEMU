@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.352690493477123,
+    "zoomFactor": 0.4303403802207665,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -36,7 +36,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": true,
       "name": "bg",
       "persistentUuid": "aa34027c-86b6-4195-9322-64eff4a802e3",
       "width": 0,
@@ -53,27 +52,12 @@
       "depth": 1,
       "height": 98,
       "layer": "",
-      "name": "txt",
+      "name": "titre",
       "persistentUuid": "917c017d-f5cb-4a03-b148-e7be5844a4d0",
-      "width": 1199,
-      "x": 157,
+      "width": 1460,
+      "x": 162,
       "y": 76,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "titre",
-      "persistentUuid": "235247c6-3bd2-4e72-bb67-19a41817689c",
-      "width": 0,
-      "x": 61,
-      "y": 76,
-      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -89,7 +73,7 @@
       "persistentUuid": "30399710-4fef-4345-80f5-15969bc16cc9",
       "width": 244,
       "x": 346,
-      "y": 268,
+      "y": 238,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -121,7 +105,7 @@
       "persistentUuid": "5c55d665-e02d-48cc-bd49-d5863d4d3f0b",
       "width": 0,
       "x": 716,
-      "y": 268,
+      "y": 238,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -153,7 +137,7 @@
       "persistentUuid": "51e06a5d-df81-465d-aa51-a2ab0a7f3637",
       "width": 0,
       "x": 1089,
-      "y": 268,
+      "y": 238,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -186,7 +170,7 @@
       "persistentUuid": "d54cb5fa-d1f0-4895-a087-ab23b94d3358",
       "width": 0,
       "x": 346,
-      "y": 607,
+      "y": 577,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -218,7 +202,7 @@
       "persistentUuid": "a113206e-f0a7-4f8b-86ac-8dc9e1b2ad57",
       "width": 0,
       "x": 716,
-      "y": 607,
+      "y": 577,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -249,27 +233,14 @@
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
-        "text": "01.",
-        "opacity": 255,
-        "fontSize": 64,
-        "visible": true,
-        "color": "252;119;1",
-        "fontFamily": "arial-rounded.TTF",
-        "align": "center",
-        "wordWrap": true
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "txt",
-      "type": "BBText::BBText",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "[b]Partnership TEMU & OUTSOURICA[/b]\n",
+        "text": "[b][color=#FC7701]01 . [/color][color=#000]Partnership TEMU & OUTSOURICA[/color][/b]",
         "opacity": 255,
         "fontSize": 64,
         "visible": true,
@@ -328,7 +299,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -386,7 +362,12 @@
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
         "text": "[b]One Year of Partnership :\nKey Milestones[/b]",
         "opacity": 255,
@@ -406,7 +387,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -464,7 +450,12 @@
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
         "text": "[b]The Actual Scope[/b]",
         "opacity": 255,
@@ -484,7 +475,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -542,7 +538,12 @@
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
         "text": "[b]Contracts and Agreements[/b]",
         "opacity": 255,
@@ -562,7 +563,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -620,7 +626,12 @@
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
         "text": "[b]The Team[/b]",
         "opacity": 255,
@@ -640,7 +651,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -698,7 +714,12 @@
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
         "text": "[b]Management Ratios per language[/b]",
         "opacity": 255,
@@ -718,22 +739,29 @@
         "objectName": "titre"
       },
       {
-        "objectName": "txt"
-      },
-      {
         "objectName": "bgprofil"
       },
       {
-        "objectName": "box_4"
+        "folderName": "page_5",
+        "children": [
+          {
+            "objectName": "p_5"
+          },
+          {
+            "objectName": "box_5"
+          }
+        ]
       },
       {
-        "objectName": "p_4"
-      },
-      {
-        "objectName": "box_5"
-      },
-      {
-        "objectName": "p_5"
+        "folderName": "page_4",
+        "children": [
+          {
+            "objectName": "p_4"
+          },
+          {
+            "objectName": "box_4"
+          }
+        ]
       },
       {
         "folderName": "page_1",
@@ -803,11 +831,22 @@
           },
           "parameters": [
             "",
-            "\"ui_section\"",
+            "\"ui_main\"",
             "0",
             "0",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "titre",
+            "Opacity",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -821,411 +860,22 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "STEPS debut fin"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "play pause reset"
+      "comment": "CLICK BOX"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonReleased"
+            "value": "SourisSurObjet"
           },
           "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "btns"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "IMG SUIVANT PRECEDENT"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "TWEEN"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "SFX et click suivant precedent"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Pop.wav",
+            "box_1",
             "",
             "",
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
         },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Pop.wav",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "PLAYPOPUP"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
         {
           "type": {
             "value": "MouseButtonReleased"
@@ -1257,23 +907,12 @@
         },
         {
           "type": {
-            "value": "Create"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "overlay",
-            "0",
-            "0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "videopopup",
-            "True"
+            "\"page-1-1\"",
+            "yes"
           ]
         }
       ]
@@ -1283,11 +922,22 @@
       "conditions": [
         {
           "type": {
-            "value": "SceneVariableAsBoolean"
+            "value": "SourisSurObjet"
           },
           "parameters": [
-            "videopopup",
-            "True"
+            "box_2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
           ]
         },
         {
@@ -1297,7 +947,527 @@
           "parameters": []
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Pop.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"page-1-1\"",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "box_3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Pop.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"page-1-1\"",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "box_4",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Pop.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"page-1-1\"",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "box_5",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Pop.wav",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"page-1-1\"",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "HOVER BOX"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "box_1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "box_1",
+            "Animation",
+            "=",
+            "\"animation_move\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "box_1",
+            "Tween",
+            "\"box\"",
+            "1.1",
+            "\"linear\"",
+            "0.25",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "box_1",
+            "Tween",
+            "\"box\"",
+            "box_1.Y()-10",
+            "\"linear\"",
+            "0.25",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "box_2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "box_2",
+            "Animation",
+            "=",
+            "\"animation_move\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "box_2",
+            "Tween",
+            "\"box\"",
+            "1.1",
+            "\"linear\"",
+            "0.25",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "box_2",
+            "Tween",
+            "\"box\"",
+            "box_2.Y()-10",
+            "\"linear\"",
+            "0.25",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "box_3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "box_3",
+            "Animation",
+            "=",
+            "\"animation_move\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "box_3",
+            "Tween",
+            "\"box\"",
+            "1.1",
+            "\"linear\"",
+            "0.25",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "box_3",
+            "Tween",
+            "\"box\"",
+            "box_3.Y()-10",
+            "\"linear\"",
+            "0.25",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "box_4",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "box_4",
+            "Animation",
+            "=",
+            "\"animation_move\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "box_4",
+            "Tween",
+            "\"box\"",
+            "1.1",
+            "\"linear\"",
+            "0.25",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "box_4",
+            "Tween",
+            "\"box\"",
+            "box_4.Y()-10",
+            "\"linear\"",
+            "0.25",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "box_5",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "box_5",
+            "Animation",
+            "=",
+            "\"animation_move\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "box_5",
+            "Tween",
+            "\"box\"",
+            "1.1",
+            "\"linear\"",
+            "0.25",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "box_5",
+            "Tween",
+            "\"box\"",
+            "box_5.Y()-10",
+            "\"linear\"",
+            "0.25",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1305,32 +1475,13 @@
         {
           "type": {
             "inverted": true,
-            "value": "SceneVariableAsBoolean"
+            "value": "SourisSurObjet"
           },
           "parameters": [
-            "videopopup",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
+            "box_1",
             "",
-            "Left"
+            "",
+            ""
           ]
         },
         {
@@ -1343,11 +1494,56 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
+            "box_1",
+            "Animation",
+            "=",
+            "\"animation_idle\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "box_1",
+            "Tween",
+            "\"box\"",
+            "1",
+            "\"linear\"",
+            "0.25",
             "",
-            "Pop.wav",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "box_1",
+            "Tween",
+            "\"box\"",
+            "box_1.Y()+10",
+            "\"linear\"",
+            "0.25",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "box_2",
             "",
             "",
             ""
@@ -1355,20 +1551,298 @@
         },
         {
           "type": {
-            "value": "Delete"
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "overlay",
+            "box_2",
+            "Animation",
+            "=",
+            "\"animation_idle\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "box_2",
+            "Tween",
+            "\"box\"",
+            "1",
+            "\"linear\"",
+            "0.25",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "box_2",
+            "Tween",
+            "\"box\"",
+            "box_2.Y()+10",
+            "\"linear\"",
+            "0.25",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "box_3",
+            "",
+            "",
             ""
           ]
         },
         {
           "type": {
-            "value": "SetSceneVariableAsBoolean"
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "videopopup",
-            "False"
+            "box_3",
+            "Animation",
+            "=",
+            "\"animation_idle\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "box_3",
+            "Tween",
+            "\"box\"",
+            "1",
+            "\"linear\"",
+            "0.25",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "box_3",
+            "Tween",
+            "\"box\"",
+            "box_3.Y()+10",
+            "\"linear\"",
+            "0.25",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "box_4",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "box_4",
+            "Animation",
+            "=",
+            "\"animation_idle\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "box_4",
+            "Tween",
+            "\"box\"",
+            "1",
+            "\"linear\"",
+            "0.25",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "box_4",
+            "Tween",
+            "\"box\"",
+            "box_4.Y()+10",
+            "\"linear\"",
+            "0.25",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "box_5",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "box_5",
+            "Animation",
+            "=",
+            "\"animation_idle\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "box_5",
+            "Tween",
+            "\"box\"",
+            "1",
+            "\"linear\"",
+            "0.25",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "box_5",
+            "Tween",
+            "\"box\"",
+            "box_5.Y()+10",
+            "\"linear\"",
+            "0.25",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "ANIMATIONS entree\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "titre",
+            "Tween",
+            "\"titre\"",
+            "255",
+            "\"linear\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "titre",
+            "Tween",
+            "\"titre_y\"",
+            "titre.Y()+25",
+            "\"linear\"",
+            "0.5",
+            ""
           ]
         }
       ]
@@ -1428,6 +1902,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }
