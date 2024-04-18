@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4303403802207665,
+    "zoomFactor": 0.4163025217733338,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -907,11 +907,21 @@
         },
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "section1",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"page-1-1\"",
+            "\"page-1-sub\"",
             "yes"
           ]
         }
@@ -962,11 +972,21 @@
         },
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "section1",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"page-1-1\"",
+            "\"page-1-sub\"",
             "yes"
           ]
         }
@@ -1017,11 +1037,21 @@
         },
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "section1",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"page-1-1\"",
+            "\"page-1-sub\"",
             "yes"
           ]
         }
@@ -1072,11 +1102,21 @@
         },
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "section1",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"page-1-1\"",
+            "\"page-1-sub\"",
             "yes"
           ]
         }
@@ -1127,11 +1167,21 @@
         },
         {
           "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "section1",
+            "=",
+            "5"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"page-1-1\"",
+            "\"page-1-sub\"",
             "yes"
           ]
         }

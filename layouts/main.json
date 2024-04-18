@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.301046119718251,
+    "zoomFactor": 0.2817259932079608,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -132,21 +132,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "transition",
-      "persistentUuid": "e38a25fe-5801-40da-a0b8-071cda695ad4",
-      "width": 0,
-      "x": -11,
-      "y": 1104,
-      "zOrder": 100126,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 260,
@@ -154,8 +139,8 @@
       "name": "temu_hunter",
       "persistentUuid": "81db92a6-cd4d-42d5-96a6-070cad5e6d4a",
       "width": 1920,
-      "x": 6,
-      "y": 818,
+      "x": 85,
+      "y": 822,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -739,15 +724,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 93,
       "layer": "",
-      "name": "partnairship_1",
-      "persistentUuid": "29525391-8006-44cb-bb5c-fe26840b8ac8",
-      "width": 0,
-      "x": 657,
-      "y": 201,
-      "zOrder": 100127,
+      "name": "partnership_text",
+      "persistentUuid": "30171b78-9a8d-4178-8f82-52b5469744e1",
+      "width": 291,
+      "x": 664,
+      "y": 203,
+      "zOrder": 100128,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -758,57 +744,12 @@
       "depth": 1,
       "height": 93,
       "layer": "",
-      "name": "partnership_text",
-      "persistentUuid": "30171b78-9a8d-4178-8f82-52b5469744e1",
-      "width": 291,
-      "x": 749,
-      "y": 203,
-      "zOrder": 100128,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "glob_2",
-      "persistentUuid": "1f275295-1e5a-49ef-9706-8beae4f6412c",
-      "width": 0,
-      "x": 860,
-      "y": 298,
-      "zOrder": 100129,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
       "name": "glob_text",
       "persistentUuid": "9e3748d7-5c76-4629-946c-3804d7032b83",
-      "width": 0,
-      "x": 855,
+      "width": 239,
+      "x": 880,
       "y": 361,
       "zOrder": 100130,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "performance_3",
-      "persistentUuid": "93b1b707-9b79-425c-ba76-2c0461826832",
-      "width": 0,
-      "x": 1118,
-      "y": 296,
-      "zOrder": 100131,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -822,7 +763,7 @@
       "name": "performance_text",
       "persistentUuid": "4f895e79-079b-430f-aa2c-f0041ff82238",
       "width": 291,
-      "x": 1206,
+      "x": 1116,
       "y": 301,
       "zOrder": 100132,
       "numberProperties": [],
@@ -837,24 +778,9 @@
       "name": "chart_text",
       "persistentUuid": "b29e9716-b8ea-4ad8-b547-9c31f1f7a5d7",
       "width": 0,
-      "x": 1597,
+      "x": 1507,
       "y": 210,
       "zOrder": 100133,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "chart_4",
-      "persistentUuid": "17bd354f-8b18-48d3-9184-374b7aa437e3",
-      "width": 0,
-      "x": 1504,
-      "y": 208,
-      "zOrder": 100134,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -9392,14 +9318,14 @@
         },
         {
           "type": {
-            "value": "MettreXY"
+            "value": "Create"
           },
           "parameters": [
+            "",
             "transition",
-            "=",
             "0",
-            "=",
-            "0"
+            "0",
+            ""
           ]
         },
         {
@@ -9411,15 +9337,6 @@
             "Animation",
             "=",
             "\"transition-out\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "transition",
-            ""
           ]
         }
       ]
@@ -9558,17 +9475,7 @@
                 "",
                 "\"nextPage1\"",
                 ">=",
-                "6"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "camion",
-                "Tween",
-                "\"go_partnership\""
+                "4"
               ]
             },
             {
@@ -9585,7 +9492,7 @@
               },
               "parameters": [
                 "",
-                "\"page-1\"",
+                "\"page1\"",
                 ""
               ]
             },
@@ -9718,7 +9625,7 @@
                 "",
                 "\"nextPage2\"",
                 ">=",
-                "6"
+                "4"
               ]
             },
             {
@@ -9735,7 +9642,7 @@
               },
               "parameters": [
                 "",
-                "\"marketing\"",
+                "\"page2\"",
                 ""
               ]
             },
@@ -9779,7 +9686,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Pen performance",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9930,7 +9836,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Pen chart",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10236,7 +10141,7 @@
             "\"fade_in\"",
             "255",
             "\"linear\"",
-            "1",
+            "0.2",
             "no"
           ]
         },
@@ -10314,7 +10219,7 @@
             "\"fade_out\"",
             "0",
             "\"linear\"",
-            "0.3",
+            "0.2",
             "no"
           ]
         },
@@ -10719,6 +10624,49 @@
           },
           "parameters": [
             "chart_text"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "TRANSITION IN FINIE = DELETE"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "transition",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "transition",
+            ""
           ]
         }
       ]

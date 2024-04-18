@@ -8,7 +8,7 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": false,
-    "antialiasingMode": "MSAA",
+    "antialiasingMode": "none",
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "landscape",
@@ -23,7 +23,7 @@
     "name": "Temu",
     "description": "",
     "author": "Mehdi",
-    "windowWidth": 1918,
+    "windowWidth": 1920,
     "windowHeight": 1080,
     "latestCompilationDirectory": "C:\\Users\\ACER\\Desktop\\Work\\Presentation KAMAL\\export",
     "maxFPS": 60,
@@ -65,13 +65,6 @@
   "resources": {
     "resources": [
       {
-        "file": "Montserrat-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "Montserrat-Regular.ttf",
-        "userAdded": true
-      },
-      {
         "file": "Montserrat-Bold.ttf",
         "kind": "font",
         "metadata": "",
@@ -99,15 +92,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "bgkamal.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bgkamal.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
         "file": "Slick Button.wav",
         "kind": "audio",
         "metadata": "",
@@ -127,2945 +111,11 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "suivant.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "suivant.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "precedent.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "precedent.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
         "file": "expo.mp4",
         "kind": "video",
         "metadata": "",
         "name": "expo.mp4",
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "playlast.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "playlast.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "pause (10).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "pause (10).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "reset (12).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "reset (12).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_000_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_000_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_001_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_001_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_002_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_002_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_003_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_003_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_004_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_004_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_005_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_005_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_006_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_006_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_007_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_007_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_008_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_008_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_009_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_009_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_010_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_010_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_011_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_011_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_012_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_012_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_013_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_013_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_014_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_014_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_015_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_015_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_016_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_016_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_017_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_017_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_018_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_018_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_019_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_019_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_020_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_020_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_021_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_021_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_022_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_022_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_023_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_023_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_024_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_024_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_025_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_025_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_026_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_026_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_027_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_027_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_028_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_028_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_029_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_029_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_030_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_030_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_031_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_031_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_032_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_032_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_033_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_033_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_034_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_034_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_035_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_035_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_036_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_036_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_037_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_037_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_038_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_038_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_039_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_039_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_040_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_040_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_041_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_041_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_042_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_042_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_043_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_043_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_044_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_044_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_045_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_045_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_046_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_046_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_047_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_047_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_048_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_048_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_049_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_049_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_050_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_050_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_051_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_051_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_052_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_052_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_053_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_053_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_054_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_054_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_055_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_055_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_056_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_056_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_057_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_057_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_058_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_058_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_059_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_059_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_060_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_060_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_061_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_061_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_062_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_062_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_063_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_063_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_064_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_064_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_065_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_065_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_066_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_066_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_067_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_067_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_068_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_068_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_069_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_069_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_070_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_070_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_071_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_071_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_072_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_072_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_073_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_073_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_074_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_074_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_075_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_075_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_076_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_076_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_077_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_077_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_078_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_078_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_079_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_079_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_080_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_080_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_081_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_081_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_082_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_082_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_083_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_083_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_084_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_084_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_085_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_085_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_086_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_086_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_087_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_087_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_088_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_088_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_089_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_089_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_090_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_090_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_091_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_091_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_092_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_092_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_093_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_093_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_094_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_094_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_095_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_095_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_096_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_096_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_097_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_097_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_098_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_098_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_099_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_099_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_100_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_100_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_101_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_101_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_102_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_102_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_103_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_103_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_104_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_104_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_105_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_105_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_106_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_106_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_107_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_107_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_108_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_108_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_109_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_109_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_110_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_110_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_111_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_111_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_112_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_112_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_113_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_113_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_114_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_114_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_115_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_115_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_116_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_116_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_117_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_117_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_118_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_118_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_119_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_119_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_120_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_120_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_121_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_121_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_122_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_122_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_123_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_123_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_124_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_124_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_125_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_125_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_126_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_126_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_127_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_127_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_128_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_128_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_129_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_129_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_130_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_130_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_131_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_131_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_132_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_132_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_133_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_133_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_134_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_134_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_135_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_135_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_136_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_136_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_137_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_137_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_138_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_138_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_139_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_139_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_140_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_140_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_141_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_141_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_142_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_142_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_143_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_143_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_144_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_144_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_145_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_145_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_146_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_146_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_147_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_147_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_148_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_148_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_149_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_149_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_150_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_150_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_151_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_151_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_152_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_152_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_153_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_153_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_154_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_154_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_155_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_155_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_156_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_156_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_157_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_157_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_158_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_158_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_159_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_159_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_160_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_160_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_161_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_161_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_162_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_162_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_163_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_163_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_164_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_164_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_165_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_165_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_166_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_166_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_167_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_167_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_168_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_168_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_169_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_169_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_170_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_170_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_171_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_171_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_172_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_172_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_173_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_173_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_174_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_174_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_175_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_175_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_176_delay-0.03s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_176_delay-0.03s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_000_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_000_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_001_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_001_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_002_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_002_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_003_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_003_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_004_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_004_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_005_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_005_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_006_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_006_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_007_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_007_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_008_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_008_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_009_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_009_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_010_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_010_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_011_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_011_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_012_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_012_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_013_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_013_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_014_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_014_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_015_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_015_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_016_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_016_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_017_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_017_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_018_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_018_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_019_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_019_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_020_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_020_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_021_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_021_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_022_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_022_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_023_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_023_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_024_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_024_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_025_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_025_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_026_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_026_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_027_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_027_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_028_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_028_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_029_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_029_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_030_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_030_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_031_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_031_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_032_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_032_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_033_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_033_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_034_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_034_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_035_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_035_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_036_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_036_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_037_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_037_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_038_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_038_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_039_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_039_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_040_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_040_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_041_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_041_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_042_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_042_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_043_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_043_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_044_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_044_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_045_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_045_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_046_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_046_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_047_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_047_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_048_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_048_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_049_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_049_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_050_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_050_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_051_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_051_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_052_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_052_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_053_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_053_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_054_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_054_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_055_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_055_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_056_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_056_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_057_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_057_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_058_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_058_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_059_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_059_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_060_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_060_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_061_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_061_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_062_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_062_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_063_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_063_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_064_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_064_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_065_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_065_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_066_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_066_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_067_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_067_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_068_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_068_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_069_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_069_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_070_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_070_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_071_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_071_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_072_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_072_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_073_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_073_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_074_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_074_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_075_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_075_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_076_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_076_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_077_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_077_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_078_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_078_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_079_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_079_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_080_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_080_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_081_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_081_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_082_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_082_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_083_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_083_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_084_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_084_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_085_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_085_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_086_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_086_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_087_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_087_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_088_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_088_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_089_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_089_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_090_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_090_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_091_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_091_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_092_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_092_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_093_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_093_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_094_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_094_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_095_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_095_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_096_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_096_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_097_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_097_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_098_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_098_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_099_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_099_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_100_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_100_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_101_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_101_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_102_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_102_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_103_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_103_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_104_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_104_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_105_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_105_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_106_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_106_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_107_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_107_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_108_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_108_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_109_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_109_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_110_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_110_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_111_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_111_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_112_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_112_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_113_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_113_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_114_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_114_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_115_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_115_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_116_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_116_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_117_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_117_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_118_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_118_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_119_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_119_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_120_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_120_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_121_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_121_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_122_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_122_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_123_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_123_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_124_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_124_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_125_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_125_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_126_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_126_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_127_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_127_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_128_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_128_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_129_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_129_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_130_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_130_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_131_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_131_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_132_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_132_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_133_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_133_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_134_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_134_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_135_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_135_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_136_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_136_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_137_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_137_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_138_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_138_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_139_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_139_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_140_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_140_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "frame_141_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "frame_141_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "qrcode.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "qrcode.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "playpopup (1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "playpopup (1).png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -3075,169 +125,6 @@
         "name": "overlay (15).png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "closepopupvideo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "closepopupvideo.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "1 (1).jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "1 (1).jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "2 (1).jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "2 (1).jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "3.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "3.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "11.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "12.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "13.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "14.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "15.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "16.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "17.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "3.mp4",
-        "kind": "video",
-        "metadata": "",
-        "name": "3.mp4",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "19.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "19.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "1.mp4",
-        "kind": "video",
-        "metadata": "",
-        "name": "1.mp4",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "1-1.mp4",
-        "kind": "video",
-        "metadata": "",
-        "name": "1-1.mp4",
-        "userAdded": false
-      },
-      {
-        "file": "1-2.mp4",
-        "kind": "video",
-        "metadata": "",
-        "name": "1-2.mp4",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "meeting edit.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "meeting edit.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "file": "zik (2).mp3",
@@ -5482,30 +2369,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "fullscreen2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "fullscreen2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "mute.png",
         "kind": "image",
         "metadata": "",
         "name": "mute.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "mute2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "mute2.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -7264,15 +4133,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "left.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "left.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "box.png",
         "kind": "image",
         "metadata": "",
@@ -7318,15 +4178,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "6.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "6.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "7.jpg",
         "kind": "image",
         "metadata": "",
@@ -7354,33 +4205,72 @@
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "../images/page_4/page-4-1.jpg",
         "kind": "image",
         "metadata": "",
         "name": "..\\images\\page_4\\page-4-1.jpg",
+=======
+        "file": "back (11).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back (11).png",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "../images/page_4/page-4-2.jpg",
         "kind": "image",
         "metadata": "",
         "name": "..\\images\\page_4\\page-4-2.jpg",
+=======
+        "file": "4last.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4last.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../IMG/slides/1/Frame 10.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\IMG\\slides\\1\\Frame 10.jpg",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": false
       },
       {
+<<<<<<< Updated upstream
         "alwaysLoaded": false,
         "file": "../images/page_4/page-4-3.jpg",
         "kind": "image",
         "metadata": "",
         "name": "..\\images\\page_4\\page-4-3.jpg",
+=======
+        "file": "GENERIQUE v2.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "GENERIQUE v2.mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Diapositive5 1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diapositive5 1.jpg",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "../images/page_4/page-4-4.jpg",
         "kind": "image",
         "metadata": "",
@@ -7394,56 +4284,98 @@
         "kind": "image",
         "metadata": "",
         "name": "..\\images\\page_4\\page-4-5.jpg",
+=======
+        "file": "Diapositive6 1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diapositive6 1.jpg",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "../images/page_4/page-4-6.jpg",
         "kind": "image",
         "metadata": "",
         "name": "..\\images\\page_4\\page-4-6.jpg",
+=======
+        "file": "9.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.jpg",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "../images/page_4/page-4-7.jpg",
         "kind": "image",
         "metadata": "",
         "name": "..\\images\\page_4\\page-4-7.jpg",
+=======
+        "file": "Capture d’écran 2024-04-18 à 10.09 1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Capture d’écran 2024-04-18 à 10.09 1.jpg",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "page-4-1.jpg",
         "kind": "image",
         "metadata": "",
         "name": "page-4-1.jpg",
+=======
+        "file": "Capture d’écran 2024-04-18 à 10.11 1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Capture d’écran 2024-04-18 à 10.11 1.jpg",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "page-4-2.jpg",
         "kind": "image",
         "metadata": "",
         "name": "page-4-2.jpg",
+=======
+        "file": "Diapositive13 1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diapositive13 1.jpg",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "page-4-3.jpg",
         "kind": "image",
         "metadata": "",
         "name": "page-4-3.jpg",
+=======
+        "file": "Diapositive14 1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diapositive14 1.jpg",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "page-4-4.jpg",
         "kind": "image",
         "metadata": "",
@@ -7646,6 +4578,12 @@
         "kind": "image",
         "metadata": "",
         "name": "page-3-8.jpg",
+=======
+        "file": "Diapositive15 1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diapositive15 1.jpg",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       }
@@ -11714,6 +8652,53 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "back",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "back",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "back (11).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -11727,6 +8712,9 @@
       },
       {
         "objectName": "home"
+      },
+      {
+        "objectName": "back"
       },
       {
         "objectName": "bg"
@@ -11764,13 +8752,21 @@
     },
     {
       "folded": true,
+<<<<<<< Updated upstream
       "name": "section3",
+=======
+      "name": "section1",
+>>>>>>> Stashed changes
       "type": "number",
       "value": 1
     },
     {
       "folded": true,
+<<<<<<< Updated upstream
       "name": "section4",
+=======
+      "name": "section2",
+>>>>>>> Stashed changes
       "type": "number",
       "value": 1
     }
@@ -11786,7 +8782,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/page-1"
+      "referenceTo": "/layouts/page1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/page1-sub"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/page2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/page2-sub"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -11807,6 +8815,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/template_subsection"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/contact"
     }
   ],
   "externalEvents": [
