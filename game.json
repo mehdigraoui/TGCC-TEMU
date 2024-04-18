@@ -4205,28 +4205,33 @@
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
         "file": "../images/page_4/page-4-1.jpg",
         "kind": "image",
         "metadata": "",
         "name": "..\\images\\page_4\\page-4-1.jpg",
-=======
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "back (11).png",
         "kind": "image",
         "metadata": "",
         "name": "back (11).png",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
         "file": "../images/page_4/page-4-2.jpg",
         "kind": "image",
         "metadata": "",
         "name": "..\\images\\page_4\\page-4-2.jpg",
-=======
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "4last.jpg",
         "kind": "image",
         "metadata": "",
@@ -4240,18 +4245,20 @@
         "kind": "image",
         "metadata": "",
         "name": "..\\..\\IMG\\slides\\1\\Frame 10.jpg",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": false
       },
       {
-<<<<<<< Updated upstream
         "alwaysLoaded": false,
         "file": "../images/page_4/page-4-3.jpg",
         "kind": "image",
         "metadata": "",
         "name": "..\\images\\page_4\\page-4-3.jpg",
-=======
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "GENERIQUE v2.mp4",
         "kind": "video",
         "metadata": "",
@@ -4264,13 +4271,11 @@
         "kind": "image",
         "metadata": "",
         "name": "Diapositive5 1.jpg",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
         "file": "../images/page_4/page-4-4.jpg",
         "kind": "image",
         "metadata": "",
@@ -4284,98 +4289,110 @@
         "kind": "image",
         "metadata": "",
         "name": "..\\images\\page_4\\page-4-5.jpg",
-=======
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "Diapositive6 1.jpg",
         "kind": "image",
         "metadata": "",
         "name": "Diapositive6 1.jpg",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
         "file": "../images/page_4/page-4-6.jpg",
         "kind": "image",
         "metadata": "",
         "name": "..\\images\\page_4\\page-4-6.jpg",
-=======
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "9.jpg",
         "kind": "image",
         "metadata": "",
         "name": "9.jpg",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
         "file": "../images/page_4/page-4-7.jpg",
         "kind": "image",
         "metadata": "",
         "name": "..\\images\\page_4\\page-4-7.jpg",
-=======
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "Capture d’écran 2024-04-18 à 10.09 1.jpg",
         "kind": "image",
         "metadata": "",
         "name": "Capture d’écran 2024-04-18 à 10.09 1.jpg",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
         "file": "page-4-1.jpg",
         "kind": "image",
         "metadata": "",
         "name": "page-4-1.jpg",
-=======
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "Capture d’écran 2024-04-18 à 10.11 1.jpg",
         "kind": "image",
         "metadata": "",
         "name": "Capture d’écran 2024-04-18 à 10.11 1.jpg",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
         "file": "page-4-2.jpg",
         "kind": "image",
         "metadata": "",
         "name": "page-4-2.jpg",
-=======
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "Diapositive13 1.jpg",
         "kind": "image",
         "metadata": "",
         "name": "Diapositive13 1.jpg",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
         "file": "page-4-3.jpg",
         "kind": "image",
         "metadata": "",
         "name": "page-4-3.jpg",
-=======
-        "file": "Diapositive14 1.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "Diapositive14 1.jpg",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
+        "file": "Diapositive14 1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Diapositive14 1.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "page-4-4.jpg",
         "kind": "image",
         "metadata": "",
@@ -4578,12 +4595,15 @@
         "kind": "image",
         "metadata": "",
         "name": "page-3-8.jpg",
-=======
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "Diapositive15 1.jpg",
         "kind": "image",
         "metadata": "",
         "name": "Diapositive15 1.jpg",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       }
@@ -8752,21 +8772,25 @@
     },
     {
       "folded": true,
-<<<<<<< Updated upstream
       "name": "section3",
-=======
-      "name": "section1",
->>>>>>> Stashed changes
       "type": "number",
       "value": 1
     },
     {
       "folded": true,
-<<<<<<< Updated upstream
+      "name": "section1",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
       "name": "section4",
-=======
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
       "name": "section2",
->>>>>>> Stashed changes
       "type": "number",
       "value": 1
     }
