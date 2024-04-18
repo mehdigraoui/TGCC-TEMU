@@ -7351,6 +7351,303 @@
         "name": "right (3).png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../images/page_4/page-4-1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\images\\page_4\\page-4-1.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../images/page_4/page-4-2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\images\\page_4\\page-4-2.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../images/page_4/page-4-3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\images\\page_4\\page-4-3.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../images/page_4/page-4-4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\images\\page_4\\page-4-4.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../images/page_4/page-4-5.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\images\\page_4\\page-4-5.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../images/page_4/page-4-6.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\images\\page_4\\page-4-6.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../images/page_4/page-4-7.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\images\\page_4\\page-4-7.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-4-1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-4-1.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-4-2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-4-2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-4-3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-4-3.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-4-4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-4-4.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-40.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-40.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-41.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-41.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-4-5.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-4-5.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-4-6.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-4-6.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-4-7.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-4-7.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-42.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-42.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-43.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-43.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-44.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-44.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-45.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-45.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-46.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-46.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-47.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-47.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-48.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-48.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../images/page-3/Capture d’écran 2024-04-18 à 11.24 1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\images\\page-3\\Capture d’écran 2024-04-18 à 11.24 1.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-3-1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-3-1.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-3-2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-3-2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-3-3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-3-3.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-3-4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-3-4.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-3-5.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-3-5.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-3-6.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-3-6.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-3-7.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-3-7.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../images/page-3/page-3-9.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\images\\page-3\\page-3-9.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "page-3-8.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "page-3-8.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -11464,6 +11761,18 @@
       "name": "camion_y",
       "type": "number",
       "value": 522
+    },
+    {
+      "folded": true,
+      "name": "section3",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "section4",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
@@ -11478,6 +11787,22 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/page-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/page4"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/page4-sub"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/page3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/page3-sub"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
