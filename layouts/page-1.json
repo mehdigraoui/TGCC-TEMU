@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.38958562738272895,
+    "zoomFactor": 0.352690493477123,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -77,6 +77,169 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 181,
+      "keepRatio": true,
+      "layer": "",
+      "name": "box_1",
+      "persistentUuid": "30399710-4fef-4345-80f5-15969bc16cc9",
+      "width": 244,
+      "x": 346,
+      "y": 268,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "p_1",
+      "persistentUuid": "a1da75e4-f63e-449e-8f95-7c87528e84e2",
+      "width": 0,
+      "x": 347,
+      "y": 461,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "box_2",
+      "persistentUuid": "5c55d665-e02d-48cc-bd49-d5863d4d3f0b",
+      "width": 0,
+      "x": 716,
+      "y": 268,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "p_2",
+      "persistentUuid": "698392d4-3a62-41aa-ba88-a1244a92828b",
+      "width": 0,
+      "x": 747,
+      "y": 461,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "box_3",
+      "persistentUuid": "51e06a5d-df81-465d-aa51-a2ab0a7f3637",
+      "width": 0,
+      "x": 1089,
+      "y": 268,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 37,
+      "keepRatio": true,
+      "layer": "",
+      "name": "p_3",
+      "persistentUuid": "f1cb7be2-b789-4be6-99dc-1f90b229568c",
+      "width": 276,
+      "x": 1081,
+      "y": 461,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "box_4",
+      "persistentUuid": "d54cb5fa-d1f0-4895-a087-ab23b94d3358",
+      "width": 0,
+      "x": 346,
+      "y": 607,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "p_4",
+      "persistentUuid": "4d64449f-66d1-42f1-9089-3767375f7800",
+      "width": 0,
+      "x": 420,
+      "y": 800,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "box_5",
+      "persistentUuid": "a113206e-f0a7-4f8b-86ac-8dc9e1b2ad57",
+      "width": 0,
+      "x": 716,
+      "y": 607,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 58,
+      "keepRatio": true,
+      "layer": "",
+      "name": "p_5",
+      "persistentUuid": "91986977-085e-4c50-9d31-1dbbb4213f79",
+      "width": 196,
+      "x": 742,
+      "y": 800,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -106,7 +269,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b]TEST[/b]\n",
+        "text": "[b]Partnership TEMU & OUTSOURICA[/b]\n",
         "opacity": 255,
         "fontSize": 64,
         "visible": true,
@@ -156,6 +319,396 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "box_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 244,
+                        "y": 0
+                      },
+                      {
+                        "x": 244,
+                        "y": 181
+                      },
+                      {
+                        "x": 0,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "p_1",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b]One Year of Partnership :\nKey Milestones[/b]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "arial-rounded.TTF",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "box_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 244,
+                        "y": 0
+                      },
+                      {
+                        "x": 244,
+                        "y": 181
+                      },
+                      {
+                        "x": 0,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "p_2",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b]The Actual Scope[/b]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "arial-rounded.TTF",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "box_3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 244,
+                        "y": 0
+                      },
+                      {
+                        "x": 244,
+                        "y": 181
+                      },
+                      {
+                        "x": 0,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "p_3",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b]Contracts and Agreements[/b]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "arial-rounded.TTF",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "box_4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 244,
+                        "y": 0
+                      },
+                      {
+                        "x": 244,
+                        "y": 181
+                      },
+                      {
+                        "x": 0,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "p_4",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b]The Team[/b]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "arial-rounded.TTF",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "box_5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 244,
+                        "y": 0
+                      },
+                      {
+                        "x": 244,
+                        "y": 181
+                      },
+                      {
+                        "x": 0,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "p_5",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[b]Management Ratios per language[/b]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "arial-rounded.TTF",
+        "align": "center",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -169,6 +722,51 @@
       },
       {
         "objectName": "bgprofil"
+      },
+      {
+        "objectName": "box_4"
+      },
+      {
+        "objectName": "p_4"
+      },
+      {
+        "objectName": "box_5"
+      },
+      {
+        "objectName": "p_5"
+      },
+      {
+        "folderName": "page_1",
+        "children": [
+          {
+            "objectName": "p_1"
+          },
+          {
+            "objectName": "box_1"
+          }
+        ]
+      },
+      {
+        "folderName": "page_2",
+        "children": [
+          {
+            "objectName": "box_2"
+          },
+          {
+            "objectName": "p_2"
+          }
+        ]
+      },
+      {
+        "folderName": "page_3",
+        "children": [
+          {
+            "objectName": "box_3"
+          },
+          {
+            "objectName": "p_3"
+          }
+        ]
       }
     ]
   },

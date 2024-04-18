@@ -7270,6 +7270,15 @@
         "name": "left.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "box.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
