@@ -33,68 +33,22 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1080,
       "layer": "",
       "name": "bg",
       "persistentUuid": "aa34027c-86b6-4195-9322-64eff4a802e3",
-      "width": 0,
+      "width": 1920,
       "x": 0,
       "y": 0,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 808,
-      "layer": "",
-      "name": "img",
-      "persistentUuid": "bbdc0072-b67c-486c-99f9-8f029ded701b",
-      "width": 1177,
-      "x": 325,
-      "y": 222,
-      "zOrder": 2,
       "numberProperties": [
         {
           "name": "animation",
           "value": 0
         }
       ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 54,
-      "layer": "",
-      "name": "btnsuivant",
-      "persistentUuid": "be8413de-0506-4bd1-993d-8407805f34f5",
-      "width": 55,
-      "x": 1689,
-      "y": 40,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 54,
-      "layer": "",
-      "name": "btnprecedent",
-      "persistentUuid": "13d5a578-3225-4c50-b1ec-fe420ccf37bf",
-      "width": 55,
-      "x": 1621,
-      "y": 40,
-      "zOrder": 4,
-      "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
