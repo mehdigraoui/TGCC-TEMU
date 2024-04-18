@@ -106,7 +106,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[b]Partnership TEMU & OUTSOURICA[/b]\n",
+        "text": "[b]TEST[/b]\n",
         "opacity": 255,
         "fontSize": 64,
         "visible": true,
@@ -205,7 +205,7 @@
           },
           "parameters": [
             "",
-            "\"ui2\"",
+            "\"ui_section\"",
             "0",
             "0",
             ""

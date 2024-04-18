@@ -1,0 +1,66 @@
+{
+  "associatedLayout": "main",
+  "name": "ui_main",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 54,
+      "layer": "",
+      "name": "fullscreen",
+      "persistentUuid": "13bfbe0b-adb6-47a7-b5ba-e7cd792051db",
+      "width": 55,
+      "x": 61,
+      "y": 59,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 54,
+      "layer": "",
+      "name": "back",
+      "persistentUuid": "d2234b6d-52cd-4d62-9326-00446762e4d5",
+      "width": 55,
+      "x": 1773,
+      "y": 86,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "music_controler",
+      "persistentUuid": "2ac1b462-6655-4111-bb66-f0bc427e16aa",
+      "width": 0,
+      "x": 130,
+      "y": 59,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.49138775453293565,
+    "windowMask": false
+  }
+}
